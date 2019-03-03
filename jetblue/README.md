@@ -1,24 +1,25 @@
-# README
+## True Blue For Good: Give Back with JetBlue
+Prototype made for JetBlue's challenge to create a product to demonstrate how JetBlue is the most caring airline in the world. This was achieved by creating a feature for JetBlue's website that allows customer to browser volunteering oportunities that partner with the airline, offering rewards in the form of True Blue points.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Installation for OS X, Windows, Linux
+1. Open your preferred browser
+2. Navigate to www.jetblue.com/trueblueforgood
+3. Get inspire and volunteer! :raised_hands:
 
-Things you may want to cover:
+## Built With
+Ruby on Rails
+Bootstrap
+Nokogiri
 
-* Ruby version
+## Contributing
+Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
 
-* System dependencies
+## Authors
+Nhinh Dao
+Aellon Krider
+Indira Kissoondyal
+Paula McKinley
+Wendy Calderon
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## License
+The web app is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
