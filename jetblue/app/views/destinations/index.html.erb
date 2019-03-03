@@ -1,5 +1,9 @@
 <p id="notice"><%= notice %></p>
 
+<h1>Destinations</h1>
+
+<p id="notice"><%= notice %></p>
+
 <h1>Trips</h1>
 
 
@@ -160,24 +164,7 @@
     </tr>
   </thead>
 
-  <tbody>
-    <% @trips.each do |trip| %>
-      <tr>
-        <td><%= trip.user_id %></td>
-        <td><%= trip.location %></td>
-        <td><%= trip.price %></td>
-        <td><%= trip.category %></td>
-        <td><%= trip.title %></td>
-        <td><%= trip.description %></td>
-        <td><%= trip.reward %></td>
-        <td><%= link_to 'Show', trip %></td>
-        <td><%= link_to 'Edit', edit_trip_path(trip) %></td>
-        <td><%= link_to 'Destroy', trip, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table> -->
+  
 
 <br>
 
-<%= link_to 'New Trip', new_trip_path %>

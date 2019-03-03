@@ -17,6 +17,10 @@ class TripsController < ApplicationController
     @trip = Trip.new
   end
 
+  def destination
+    
+  end
+
   # GET /trips/1/edit
   def edit
   end
