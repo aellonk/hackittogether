@@ -14,12 +14,12 @@ class TripsController < ApplicationController
     @trip = Trip.create(trip)
   end
 
-  def destination
-    trip = Trip.get_trips(params[:destination])
-    @trip = Trip.create(trip)
-    binding.pry
+  def welcome
   end
 
+  def location
+    @location = params[:location].split('-').map{|i| i.capitalize}.join(' ')
+  end
   # GET /trips/new
   def new
     @trip = Trip.new

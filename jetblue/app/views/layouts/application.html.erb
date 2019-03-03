@@ -1,23 +1,95 @@
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <%= stylesheet_link_tag    'application', media: 'all' %>
-    <%= stylesheet_link_tag "style" %>
-    <title>JetBlue</title>
-  </head>
-  <body>
-    <%= yield %>
-    <h1 class="text-center">Hello, world!</h1>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <%= stylesheet_link_tag  'application', media: 'all' %>
+  <%= stylesheet_link_tag "style" %>
+  <title>JetBlue</title>
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-md" style = "background-color: #02285E">
+  <a class="navbar-brand" href="https://www.jetblue.com/" style = "color: white" >jetBlue</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav mr-auto">
+    <li class="nav-item active">
+      <a class="nav-link" style = "color: white" href="#">Book <span class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item active">
+    <a class="nav-link" style = "color: white" href="#">Explore <span class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item active">
+    <a class="nav-link" style = "color: white" href="#">Travel Info<span class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item active">
+    <a class="nav-link" style = "color: white" href="#">My Trips <span class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item active">
+    <a class="nav-link" style = "color: white" href="#">True Blue <span class="sr-only">(current)</span></a>
+  </li>
+  <li class="nav-item active">
+    <a class="nav-link" style = "color: white" href="#">Sign In <span class="sr-only">(current)</span></a>
+  </li>
+    </ul>
+  </div>
+</nav>
+      <%= yield %>
+<footer class="container py-5">
+<div class="row">
+  <div class="col-6 col-md" style = "color: #02285E">
+    <h5>Get To Know Us</h5>
+    <ul class="list-unstyled text-small">
+    <li><a style = "color: #02285E" href="#">Our Company</a></li>
+    <li><a style = "color: #02285E" href="#">Our Planes</a></li>
+    <li><a style = "color: #02285E" href="#">Partner Airlines</a></li>
+    <li><a style = "color: #02285E" href="#">Investor Relations</a></li>
+    <li><a style = "color: #02285E" href="#">Travel Agents</a></li>
+    <li><a style = "color: #02285E" href="#">Sponsorships</a></li>
+    <li><a style = "color: #02285E" href="#">Careers</a></li>
+    <li><a style = "color: #02285E" href="#">Timetables</a></li>
+    <li><a style = "color: #02285E" href="#">Site Map</a></li>
+    <li><a style = "color: #02285E" href="#">Contact Us</a></li>
+    </ul>
+  </div>
+  <div class="col-6 col-md" style = "color: #02285E">
+    <h5>Policies</h5>
+    <ul class="list-unstyled text-small">
+    <li><a style = "color: #02285E" href="#">Legal</a></li>
+    <li><a style = "color: #02285E" href="#">Accessibility</a></li>
+    <li><a style = "color: #02285E" href="#">Contract of Carriage</a></li>
+    <li><a style = "color: #02285E" href="#">Tarmac Delay Plan</a></li>
+    <li><a style = "color: #02285E" href="#">Privacy</a></li>
+    <li><a style = "color: #02285E" href="#">Human </a></li>
+    </ul>
+  </div>
+  <div class="col-6 col-md" style = "color: #02285E">
+    <h5>JetBlue in Action</h5>
+    <ul class="list-unstyled text-small">
+    <li><a style = "color: #02285E" href="#">JetBlue for Good</a></li>
+    <li><a style = "color: #02285E" href="#">Sustainability</a></li>
+    <li><a style = "color: #02285E" href="#">Military</a></li>
+    <li><a style = "color: #02285E" href="#">Terms</a></li>
+    <li><a style = "color: #02285E" href="#">Press Room</a></li>
+    <li><a style = "color: #02285E" href="#">Blog</a></li>
+    </ul>
+  </div>
+  <div class="col-6 col-md">
+    <h5 style = "color: #02285E">Stay Connected</h5>
+    <ul class="list-unstyled text-small">
+    <li><a style = "color: #02285E" href="#">Join our email list</a></li>
+    <li><a style = "color: #02285E" href="#">Download the JetBlue Mobile App</a></li>
+    </ul>
+  </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
 </html>
