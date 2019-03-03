@@ -15,11 +15,12 @@ ActiveRecord::Schema.define(version: 2019_03_03_163159) do
   create_table "trips", force: :cascade do |t|
     t.integer "user_id"
     t.string "location"
-    t.integer "price"
+    t.string "price"
     t.string "category"
     t.string "title"
     t.string "description"
     t.string "reward"
+    t.string "image"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

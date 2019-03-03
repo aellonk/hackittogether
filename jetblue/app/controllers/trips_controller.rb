@@ -10,11 +10,14 @@ class TripsController < ApplicationController
   # GET /trips/1
   # GET /trips/1.json
   def show
+    trip = Trip.get_trips(params[:id])
+    @trip = Trip.create(trip)
   end
 
   def destination
-    trips = Trip.get_trips(params[:destination])
-    
+    trip = Trip.get_trips(params[:destination])
+    @trip = Trip.create(trip)
+    binding.pry
   end
 
   # GET /trips/new
