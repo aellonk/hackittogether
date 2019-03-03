@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>User:</strong>
+  <%= @trip.user_id %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @trip.location %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @trip.price %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @trip.category %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @trip.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @trip.description %>
+</p>
+
+<p>
+  <strong>Reward:</strong>
+  <%= @trip.reward %>
+</p>
+
+<%= link_to 'Edit', edit_trip_path(@trip) %> |
+<%= link_to 'Back', trips_path %>
