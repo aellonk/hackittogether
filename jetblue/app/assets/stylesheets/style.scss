@@ -76,5 +76,41 @@
 
 
 #destination1 {
-  background-image: url("https://source.unsplash.com/1600x900/?nature");
+  background-image: image-url("africa.jpg");
+  background-size: cover;
+}
+
+#destination2 {
+  background-image: image-url("aruba.jpg");
+  background-size: cover;
+}
+
+#destination3 {
+  background-image: image-url("asia.jpg");
+  background-size: cover;
+}
+
+#destination4 {
+  background-image: image-url("costa_rica.jpg");
+  background-size: cover;
+}
+
+#destination5 {
+  background-image: image-url("cuba.jpg");
+  background-size: cover;
+}
+
+#destination6 {
+  background-image: image-url("haiti.jpg");
+  background-size: cover;
+}
+
+#destination7 {
+  background-image: image-url("usa.jpg");
+  background-size: cover;
+}
+
+#destination8 {
+  background-image: image-url("africa.jpg");
+  background-size: cover;
 }
