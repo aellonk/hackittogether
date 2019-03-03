@@ -1,7 +1,7 @@
 ```<!-- Main jumbotron for a primary marketing message or call to action -->
   <div class="jumbotron" id="destination6">
   <div class="container">
-      <h1 class="display-3" style = "color: white"><%= @location %></h1>
+      <h1 class="display-3" style = "color: white"><%= @place %></h1>
       <p style = "color: white">Famous for its diverse landscapes, elegant architecture and the tango, <%= @location %> awaits you. 
             </p>
     </div>
@@ -13,7 +13,7 @@
       <div class="col-md-4">
         <h2>International Volunteer HQ</h2>
         <p>Volunteer with International Volunteer HQ and choose from a wide range of volunteer opportunities available, including teaching english, childcare, animal care and a unique sustainable agriculture project.</p>
-        <p><a class="btn btn-secondary" href="/trips/north-america" role="button">View details &raquo;</a></p>
+        <p><a class="btn btn-secondary" href="/trips/<%= @location %>" role="button">View details &raquo;</a></p>
       </div>
       <div class="col-md-4">
         <h2>Volunteering on a coffee farm</h2>

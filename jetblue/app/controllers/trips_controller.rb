@@ -18,6 +18,7 @@ class TripsController < ApplicationController
   end
 
   def location
+    @place = params[:place].split('-').map{|i| i.capitalize}.join(' ')
     @location = params[:location].split('-').map{|i| i.capitalize}.join(' ')
   end
   # GET /trips/new
