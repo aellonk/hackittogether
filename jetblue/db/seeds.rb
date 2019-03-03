@@ -5,5 +5,4 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-Destination.create!(location:  'Belize')
-Trip.create(destination_id: 1, user_id: 1, location: 'Belize', price: 2000, category: 'environment', title: 'Clean up beaches', description: 'Join fellow volunteers...etc.', reward:'2000 bonus miles')
+Trip.create(destination_id:1, user_id:1, location: 'Nicaragua', price: 1400, category: 'environment', title: 'Learn about coffee through Farming', description: 'Join fellow volunteers...etc.', reward:'$50 off flight')
