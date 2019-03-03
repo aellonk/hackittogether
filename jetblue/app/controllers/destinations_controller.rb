@@ -13,6 +13,7 @@ class DestinationsController < ApplicationController
   	@destination = Destination.find(params[:id])
   	@trip1 = Trip.find_by_id(1)
   	@trip2 = Trip.find_by_id(2)
+
   end
 
 #   # GET /destinations/new

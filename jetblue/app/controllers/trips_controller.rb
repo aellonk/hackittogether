@@ -1,4 +1,4 @@
-class TripsController < ApplicationController
+  class TripsController < ApplicationController
 
 
   # GET /trips
@@ -11,6 +11,7 @@ class TripsController < ApplicationController
   # GET /trips/1.json
   def show
     @trip = Trip.find(params[:id])
+    binding.pry
   end
 
   # GET /trips/new
