@@ -1,5 +1,5 @@
 class TripsController < ApplicationController
-  before_action :set_trip, only: [:show, :edit, :update, :destroy]
+
 
   # GET /trips
   # GET /trips.json
@@ -65,14 +65,14 @@ class TripsController < ApplicationController
     end
   end
 
-  private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_trip
-      @trip = Trip.find(params[:id])
-    end
+  # private
+  #   # Use callbacks to share common setup or constraints between actions.
+  #   def set_trip
+  #     @trip = Trip.find(params[:id])
+  #   end
 
-    # Never trust parameters from the scary internet, only allow the white list through.
-    def trip_params
-      params.require(:trip).permit(:user_id, :location, :price, :category, :title, :description, :reward)
-    end
+  #   # Never trust parameters from the scary internet, only allow the white list through.
+  #   def trip_params
+  #     params.require(:trip).permit(:user_id, :location, :price, :category, :title, :description, :reward)
+  #   end
 end
