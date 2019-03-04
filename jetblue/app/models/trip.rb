@@ -26,4 +26,5 @@ class Trip < ApplicationRecord
       end
       trip
   end
+
 end
