@@ -14,7 +14,7 @@ Uses Ruby v2.4.2
 	
 3. Then run:
 
-	$ thin start --ssl 
+	$ rails s
 
 Then open page in browser according to web address displayed in terminal (ex. https://localhost:3000). Add "/welcome" to the url to see the landing page. 
 
