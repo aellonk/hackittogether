@@ -26,7 +26,7 @@ Bootstrap
 Nokogiri
 
 ## Contributing
-ug reports and pull requests are welcome on GitHub at https://github.com/aellonk/hackittogether.
+Bug reports and pull requests are welcome on GitHub at https://github.com/aellonk/hackittogether.
 
 ## Authors
 Nhinh Dao  
