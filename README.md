@@ -29,11 +29,11 @@ Nokogiri
 ug reports and pull requests are welcome on GitHub at https://github.com/aellonk/hackittogether.
 
 ## Authors
-Nhinh Dao
-Aellon Krider
-Indira Kissoondyal
-Paula McKinley
-Wendy Calderon
+Nhinh Dao  
+Aellon Krider  
+Indira Kissoondyal  
+Paula McKinley  
+Wendy Calderon  
 
 ## License
 The web app is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
