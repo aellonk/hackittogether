@@ -1,42 +1,27 @@
-<p id="notice"><%= notice %></p>
+<br><br>
+<div class="container" style="width: 80%">
+  <div class="jumbotron">
+    <h1 class="display-4"><%= @trip.title %></h1>
+    <hr>
+    <img src="<%= @trip.image %>" class="avatarimg">
+    <br>
+    <h3>Category</h3>
+    <p class="lead"><%= @trip.category %></p>
+    <br>
+    <h3>Location</h3>
+    <p class="lead"><%= @trip.location %></p>
+    <h3>Description</h3>
+    <ul>
+      <% @trip.description.each do |des| %>
+        <li class="lead"><%= des %></li>
+      <% end %>
+    </ul>
+    <br>
+    <h3>Price</h3>
+    <p class="lead"><%= @trip.price %></p>
+    <p class="lead">
+      <a class="btn btn-primary btn-lg" href="#" role="button">Choose this trip and fly with Jetblue</a>
+    </p>
+  </div>
+</div>
 
-<p>
-  <strong>User:</strong>
-  <%= @trip.user_id %>
-</p>
-
-<p>
-  <strong>Location:</strong>
-  <%= @trip.location %>
-</p>
-
-<p>
-  <strong>Price:</strong>
-  <%= @trip.price %>
-</p>
-
-<p>
-  <strong>Category:</strong>
-  <%= @trip.category %>
-</p>
-
-<p>
-  <strong>Title:</strong>
-  <%= @trip.title %>
-</p>
-
-<p>
-  <strong>Description:</strong>
-  <%= @trip.description %>
-</p>
-
-<p>
-  <strong>Reward:</strong>
-  <%= @trip.reward %>
-</p>
-
-
-<br>
-
-<%= link_to 'Edit', edit_trip_path(@trip) %> |
-<%= link_to 'Back', trips_path %>

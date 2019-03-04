@@ -1,5 +1,5 @@
 class TripsController < ApplicationController
-  before_action :set_trip, only: [:show, :edit, :update, :destroy]
+  # before_action :set_trip, only: [:show, :edit, :update, :destroy]
 
   # GET /trips
   # GET /trips.json
@@ -10,8 +10,17 @@ class TripsController < ApplicationController
   # GET /trips/1
   # GET /trips/1.json
   def show
+    trip = Trip.get_trips(params[:id])
+    @trip = Trip.create(trip)
   end
 
+  def welcome
+  end
+
+  def location
+    @place = params[:place].split('-').map{|i| i.capitalize}.join(' ')
+    @location = params[:location]
+  end
   # GET /trips/new
   def new
     @trip = Trip.new
