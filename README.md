@@ -16,7 +16,7 @@ Uses Ruby v2.4.2
 
 	$ thin start --ssl 
 
-Then open page in browser according to web address displayed in terminal (ex. https://localhost:3000).
+Then open page in browser according to web address displayed in terminal (ex. https://localhost:3000). Add "/welcome" to the url to see the landing page. 
 
 4. Get inspire and volunteer! :raised_hands:
 
