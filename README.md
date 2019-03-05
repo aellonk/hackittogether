@@ -1,5 +1,5 @@
 ## True Blue For Good: Give Back with JetBlue
-Prototype made for JetBlue's challenge to create a product to demonstrate how JetBlue is the most caring airline in the world. This was achieved by creating a feature for JetBlue's website that allows customer to browser volunteering oportunities that partner with the airline, offering rewards in the form of True Blue points.
+Prototype made for JetBlue's challenge to create a product to demonstrate how JetBlue is the most caring airline in the world. This was achieved by creating a feature for JetBlue's website that allows customer to browse volunteering opportunities that partner with the airline, offering rewards in the form of True Blue points.
 
 ## Installation for OS X, Windows, Linux
 1. Clone this repository and then execute:
@@ -18,7 +18,7 @@ Uses Ruby v2.4.2
 
 Then open page in browser according to web address displayed in terminal (ex. https://localhost:3000). Add "/welcome" to the url to see the landing page. 
 
-4. Get inspire and volunteer! :raised_hands:
+4. Get inspired and volunteer! :raised_hands:
 
 ## Built With
 Ruby on Rails
