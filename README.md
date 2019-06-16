@@ -1,5 +1,5 @@
 ## True Blue For Good: Give Back with JetBlue
-Prototype made for JetBlue's challenge to create a product to demonstrate how JetBlue is the most caring airline in the world. This was achieved by creating a feature for JetBlue's website that allows customer to browse volunteering opportunities that partner with the airline, offering rewards in the form of True Blue points.
+Winning prototype idea made for JetBlue's challenge to create a product that demonstrates how JetBlue is the most caring airline in the world. This was achieved by creating a feature for JetBlue's website that allows customers to browse volunteering opportunities that partner with the airline, offering rewards in the form of True Blue points.
 
 ## Installation for OS X, Windows, Linux
 1. Clone this repository and then execute:
